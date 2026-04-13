@@ -29,12 +29,13 @@ Expected
 Connected to MYSQL
 [ { id: 1, name: 'ZANI' }, { id: 2, name: 'AIMAN' } ]
 
+
+
+## 🛠️ Notes
 What I Learned
 How Docker container works
 Connect container (API ↔ MySQL)
 Fix common errors (network, connection, DB)
 Basic backend + database integration
-
-## 🛠️ Notes
 This is my first hands-on Docker + backend integration project.
 Still improving and adding more features.
