@@ -1,6 +1,10 @@
 # Docker Node MySQL API
 
-Simple project connect Node.js with MySQL using Docker containers.
+Containerized backend service using Docker with service-to-service communication via Docker network.
+
+## Purpose
+
+This project demonstrates how to deploy a backend service with a database using Docker containers and networking.
 
 ## 🚀 Features
 - Node.js backend
@@ -11,6 +15,10 @@ Simple project connect Node.js with MySQL using Docker containers.
 - Node.js
 - MySQL
 - Docker
+
+## 🏗️ Architecture
+
+Client → Node.js API → MySQL (Docker Network)
 
 ## ⚙️ How to Run
 
@@ -31,11 +39,13 @@ Connected to MYSQL
 
 
 
+
+## Key Learnings
+
+- Configured container-to-container communication using Docker networking
+- Built a multi-container backend system (API + Database)
+- Debugged common Docker issues (networking, database connection)
+
 ## 🛠️ Notes
-What I Learned
-How Docker container works
-Connect container (API ↔ MySQL)
-Fix common errors (network, connection, DB)
-Basic backend + database integration
 This is my first hands-on Docker + backend integration project.
 Still improving and adding more features.
