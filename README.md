@@ -33,7 +33,8 @@ docker run -d --name myapp --network mynet myapp
 Output
 docker logs myapp
 
-Expected
+## ✅ Expected Output
+
 Connected to MYSQL
 [ { id: 1, name: 'ZANI' }, { id: 2, name: 'AIMAN' } ]
 
@@ -47,5 +48,4 @@ Connected to MYSQL
 - Debugged common Docker issues (networking, database connection)
 
 ## 🛠️ Notes
-This is my first hands-on Docker + backend integration project.
-Still improving and adding more features.
+This project focuses on containerizing a backend service and enabling communication between services using Docker networking.
